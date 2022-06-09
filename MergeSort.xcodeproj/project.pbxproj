@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B13715B284C598D003B3BB0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B13715A284C598D003B3BB0 /* main.cpp */; };
+		7B137163284C5A82003B3BB0 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B137161284C5A82003B3BB0 /* MergeSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		7B137157284C598D003B3BB0 /* MergeSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MergeSort; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B13715A284C598D003B3BB0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7B137161284C5A82003B3BB0 /* MergeSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		7B137162284C5A82003B3BB0 /* MergeSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MergeSort.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				7B13715A284C598D003B3BB0 /* main.cpp */,
+				7B137161284C5A82003B3BB0 /* MergeSort.cpp */,
+				7B137162284C5A82003B3BB0 /* MergeSort.hpp */,
 			);
 			path = MergeSort;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B137163284C5A82003B3BB0 /* MergeSort.cpp in Sources */,
 				7B13715B284C598D003B3BB0 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
